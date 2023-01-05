@@ -30,12 +30,16 @@
 }
 
 .image_wrapper {
-  min-width: 150px;
-  width: 150px;
+  min-width: 100px;
+  width: 100px;
   display: flex;
   justify-content: center;
   overflow: hidden;
   border-radius: 50%;
+}
+
+.image_wrapper img {
+  object-fit: cover;
 }
 
 .tech_wrapper {
@@ -62,6 +66,8 @@
   padding: 0.75rem;
   margin-top: .75rem;
   background: rgba(243,244,246,1);
+  align-items: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 .button_wrapper {
