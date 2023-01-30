@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useScrollPosition } from "./useScrollPosition";
 
 import styles from "./navbar.module.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
     const scrollPosition = useScrollPosition();

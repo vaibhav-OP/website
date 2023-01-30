@@ -17,6 +17,13 @@
   display: flex;
 }
 
+.hero > div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
 .hero p {
   color: rgba(115,115,115,1);
   padding-top: 2px;
@@ -63,13 +70,22 @@
 }
 
 .btn_container {
-  gap: 1rem;
   display: flex;
+  align-items: center;
+
+  gap: 1rem;
   padding: 0.75rem;
   margin-top: .75rem;
-  background: rgba(243,244,246,1);
-  align-items: center;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.btn_container > div {
+  display: flex;
+  justify-content: center;
+
+  padding: 4px;
 }
 
 .button_wrapper {

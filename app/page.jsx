@@ -1,17 +1,15 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './page.module.css'
+import Link from 'next/link';
+import Image from 'next/image';
 
-import Contact from '../components/Contact'
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.hero}>
         <div>
-          <h1>Self taught</h1>
-          <h1>Full-stack web developer</h1>
-          <p>Hi there, my name is vaibhav, I am from India and I am a self taught web developer. I build complex web apps using frameworks such as <Link href="https://vuejs.org">Vue.js</Link>, <Link href="https://reactjs.org">React.js</Link>, <Link href="https://nextjs.org">Next.js</Link>, <Link href="https://www.gatsbyjs.com">Gatsbyjs</Link> and <Link href="https://tailwindcss.com">Tailwind CSS</Link>.</p>
+          <h1>Self taught Full-stack web developer</h1>
+          <p>Hi there, my name is vaibhav, I am from India and I am a self taught web developer. I build complex web apps using frameworks such as <Link href="https://vuejs.org" target="_blank">Vue.js</Link>, <Link href="https://reactjs.org" target="_blank">React.js</Link>, <Link href="https://nextjs.org" target="_blank">Next.js</Link>, <Link href="https://www.gatsbyjs.com" target="_blank">Gatsbyjs</Link> and <Link href="https://tailwindcss.com" target="_blank">Tailwind CSS</Link>.</p>
         </div>
         <div className={styles.image_wrapper}>
           <Image src='/logo.webp' alt='logo' width={100} height={100}/>
