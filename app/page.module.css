@@ -1,13 +1,15 @@
 .main {
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 6rem;
-  margin: auto;
   max-width: 1250px;
-  padding-right: 8rem;
-  padding-left: 8rem;
   min-height: 100vh;
+  padding-top: 0rem;
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 2rem;
 }
 
 .hero {

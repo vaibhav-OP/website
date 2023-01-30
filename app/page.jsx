@@ -1,15 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './page.module.css'
-import { Inter } from '@next/font/google'
 
 import Contact from '../components/Contact'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
-    <div className={styles.main + " " + inter.className}>
+    <div className={styles.main}>
       <div className={styles.hero}>
         <div>
           <h1>Self taught</h1>
@@ -146,7 +143,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <Contact />
     </div>
   )
 }
