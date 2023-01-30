@@ -1,0 +1,10 @@
+.contact_wrapper {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    color: rgba(156,163,175,1);
+    text-transform: uppercase;
+}

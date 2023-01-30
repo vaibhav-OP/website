@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+  gap: 4rem;
   padding: 6rem;
   margin: auto;
   max-width: 1250px;
@@ -43,7 +43,7 @@
 }
 
 .tech_wrapper {
-  gap: 2.5rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
 }
