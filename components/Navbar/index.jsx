@@ -11,7 +11,7 @@ export default function Navbar() {
     const [scrolled, setScolled] = useState(false);
 
     const changeNavbar = () =>{
-        if(scrollPosition > 1) {
+        if(scrollPosition > 10) {
             setScolled(true);
         } else {
             setScolled(false);
