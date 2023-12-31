@@ -25,17 +25,22 @@
 }
 
 .hero p {
-  color: rgba(115,115,115,1);
   padding-top: 2px;
   padding-bottom: 2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.hero p span {
+  display: flex;
+  gap: 4px;
 }
 
 .hero a {
-  border-bottom: solid rgba(115,115,115,1) 2px;
+  border-bottom: solid rgba(115, 115, 115, 1) 2px;
 }
 
 .hero a:hover {
-  border-bottom: solid rgba(115,115,115,.75) 2px;
+  border-bottom: solid rgba(115, 115, 115, 0.75) 2px;
 }
 
 .image_wrapper {
@@ -58,45 +63,15 @@
 }
 
 .tech_wrapper h3 {
-  color: rgba(156,163,175,1);
+  color: rgba(156, 163, 175, 1);
 }
 
 .tech_wrapper h5 {
-  color: rgba(156,163,175,1);
+  color: rgba(156, 163, 175, 1);
   font-size: 1.125rem;
   line-height: 1.75rem;
   padding-bottom: 1rem;
   border-bottom: #e5e7eb 1px solid;
-}
-
-.btn_container {
-  display: flex;
-  align-items: center;
-
-  gap: 1rem;
-  padding: 0.75rem;
-  margin-top: .75rem;
-  border-radius: 5px;
-  background: rgb(255, 255, 255);
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-}
-
-.btn_container > div {
-  display: flex;
-  justify-content: center;
-
-  padding: 4px;
-}
-
-.button_wrapper {
-  display: grid;
-  gap: .75rem;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.button_wrapper svg {
-  width: 1.25rem;
-  height: 1.25rem;
 }
 
 /* FOR MOBILE AND TABLETS */
@@ -110,9 +85,5 @@
     text-align: center;
     align-items: center;
     flex-direction: column-reverse;
-  }
-
-  .button_wrapper {
-    grid-template-columns: 1fr;
   }
 }
