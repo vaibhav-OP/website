@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../sections.module.css";
 import RESUME_DATA from "@/src/data/resume-data";
 
-const databasesList = RESUME_DATA.databases.map(database => (
+const servicesList = RESUME_DATA.services.map(database => (
   <div className={styles.btn_container} key={database.name}>
     <Image
       src={database.icon}
@@ -19,8 +19,8 @@ const databasesList = RESUME_DATA.databases.map(database => (
 export default function Databases() {
   return (
     <section>
-      <h5>Database</h5>
-      <div className={styles.button_wrapper}>{databasesList}</div>
+      <h5>Services</h5>
+      <div className={styles.button_wrapper}>{servicesList}</div>
     </section>
   );
 }

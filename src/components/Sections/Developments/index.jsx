@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../sections.module.css";
 import RESUME_DATA from "@/src/data/resume-data";
 
-const frameworkList = RESUME_DATA.frameworks.map(framework => (
+const developmentsList = RESUME_DATA.development.map(framework => (
   <div className={styles.btn_container} key={framework.name}>
     <Image
       src={framework.icon}
@@ -16,11 +16,11 @@ const frameworkList = RESUME_DATA.frameworks.map(framework => (
   </div>
 ));
 
-export default function Frameworks() {
+export default function Developments() {
   return (
     <section>
-      <h5>Frameworks</h5>
-      <div className={styles.button_wrapper}>{frameworkList}</div>
+      <h5>Development</h5>
+      <div className={styles.button_wrapper}>{developmentsList}</div>
     </section>
   );
 }

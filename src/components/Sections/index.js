@@ -1,5 +1,5 @@
-import Databases from "./Databases";
-import Frameworks from "./Frameworks";
+import Services from "./Services";
+import Developments from "./Developments";
 import Applications from "./Applications";
 
-export { Databases, Frameworks, Applications };
+export { Services, Developments, Applications };

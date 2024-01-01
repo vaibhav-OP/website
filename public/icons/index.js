@@ -9,13 +9,17 @@ import Typescript from "./typescript.svg";
 import Figma from "./figma.svg";
 import Vscode from "./vscode.svg";
 
+import Github from "./github.svg";
+import Vercel from "./vercel.svg";
 import Mongodb from "./mongodb.svg";
 import Firebase from "./firebase.svg";
 
 export {
   Figma,
   Vuejs,
+  Github,
   Vscode,
+  Vercel,
   Nextjs,
   Nodejs,
   Reactjs,
