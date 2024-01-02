@@ -1,0 +1,31 @@
+.contact_wrapper {
+  gap: 8px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.btn_wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+
+  outline: none;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.25s;
+  border: solid #e5e7eb 1px;
+}
+
+.btn_wrapper:hover {
+  border-color: #9ca3af;
+  background: #fff;
+}
+
+/* FOR MOBILE AND TABLETS */
+@media (max-width: 1023px) {
+  .contact_wrapper {
+    justify-content: center;
+  }
+}

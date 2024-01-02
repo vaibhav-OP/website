@@ -13,6 +13,8 @@ import {
   Firebase,
   Tailwind,
   Typescript,
+  Email,
+  Linkedin,
 } from "@/public/icons";
 
 const RESUME_DATA = {
@@ -20,6 +22,23 @@ const RESUME_DATA = {
   origin: "India",
   about: "Self taught Full-stack web developer",
   avatarUrl: Avatar,
+  contacts: [
+    {
+      name: "email",
+      icon: Email,
+      href: "mailto:vaibhavyash28@gmail.com",
+    },
+    {
+      name: "github",
+      icon: Github,
+      href: "https://github.com/vaibhav-OP",
+    },
+    {
+      name: "linkedin",
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/vaibhav-dwivedi-671aa21b9/",
+    },
+  ],
   shortFrameworks: [
     {
       name: "React.js",
@@ -75,7 +94,7 @@ const RESUME_DATA = {
   services: [
     {
       icon: Github,
-      name: "Github"
+      name: "Github",
     },
     {
       icon: Firebase,
@@ -87,8 +106,8 @@ const RESUME_DATA = {
     },
     {
       icon: Vercel,
-      name: "Vercel"
-    }
+      name: "Vercel",
+    },
   ],
 };
 

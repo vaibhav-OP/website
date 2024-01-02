@@ -17,7 +17,7 @@
   display: flex;
 }
 
-.hero > div {
+.details_container {
   display: flex;
   flex-direction: column;
 
@@ -35,24 +35,26 @@
   gap: 4px;
 }
 
-.hero a {
+.frameworks_links {
   border-bottom: solid rgba(115, 115, 115, 1) 2px;
 }
 
-.hero a:hover {
+.frameworks_links:hover {
   border-bottom: solid rgba(115, 115, 115, 0.75) 2px;
 }
 
 .image_wrapper {
-  min-width: 100px;
-  width: 100px;
+  width: 112px;
+  min-width: 112px;
   display: flex;
-  justify-content: center;
   overflow: hidden;
-  border-radius: 50%;
+  justify-content: center;
+  border-radius: 16px;
 }
 
 .image_wrapper img {
+  width: 112px;
+  height: 112px;
   object-fit: cover;
 }
 

@@ -14,8 +14,12 @@ import Vercel from "./vercel.svg";
 import Mongodb from "./mongodb.svg";
 import Firebase from "./firebase.svg";
 
+import Email from "./email.svg";
+import Linkedin from "./linkedin.svg";
+
 export {
   Figma,
+  Email,
   Vuejs,
   Github,
   Vscode,
@@ -24,6 +28,7 @@ export {
   Nodejs,
   Reactjs,
   Mongodb,
+  Linkedin,
   Firebase,
   Tailwind,
   Javascript,
