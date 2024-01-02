@@ -16,10 +16,10 @@ const applicationsList = RESUME_DATA.applications.map(application => (
   </div>
 ));
 
-export default function Applications() {
+export default function Services() {
   return (
     <section>
-      <h5>Applications</h5>
+      <h5>Applicaitons</h5>
       <div className={styles.button_wrapper}>{applicationsList}</div>
     </section>
   );

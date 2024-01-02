@@ -68,9 +68,7 @@
 
 .tech_wrapper h5 {
   color: rgba(156, 163, 175, 1);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  padding-bottom: 1rem;
+  font-size: 1em;
   border-bottom: #e5e7eb 1px solid;
 }
 

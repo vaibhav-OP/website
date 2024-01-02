@@ -1,6 +1,6 @@
 import Contacts from "./Contacts";
-import Databases from "./Databases";
-import Frameworks from "./Frameworks";
+import Services from "./Services";
+import Developments from "./Developments";
 import Applications from "./Applications";
 
-export { Contacts, Databases, Frameworks, Applications };
+export { Contacts, Services, Developments, Applications };

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "./page.module.css";
 import RESUME_DATA from "@/src/data/resume-data";
-import { Applications, Databases, Frameworks } from "@/src/components/Sections";
+import { Developments, Services, Applications } from "@/src/components/Sections";
 
 export default function Home() {
   return (
@@ -36,9 +36,9 @@ export default function Home() {
       </div>
       <div className={styles.tech_wrapper}>
         <h3>TECHNOLOGIES I USE</h3>
-        <Frameworks />
-        <Databases />
+        <Developments />
         <Applications />
+        <Services />
       </div>
     </div>
   );

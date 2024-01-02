@@ -5,12 +5,13 @@ import {
   Figma,
   Nextjs,
   Vscode,
+  Vercel,
+  Github,
   Nodejs,
   Reactjs,
   Mongodb,
   Firebase,
   Tailwind,
-  Javascript,
   Typescript,
 } from "@/public/icons";
 
@@ -33,26 +34,22 @@ const RESUME_DATA = {
       link: "https://tailwindcss.com",
     },
   ],
-  frameworks: [
-    {
-      icon: Vuejs,
-      name: "Vue Js",
-    },
-    {
-      icon: Javascript,
-      name: "Javascript",
-    },
+  development: [
     {
       icon: Typescript,
       name: "Typescript",
+    },
+    {
+      icon: Reactjs,
+      name: "React Js",
     },
     {
       icon: Nextjs,
       name: "Next Js",
     },
     {
-      icon: Reactjs,
-      name: "React Js",
+      icon: Vuejs,
+      name: "Vue Js",
     },
     {
       icon: Nodejs,
@@ -75,7 +72,11 @@ const RESUME_DATA = {
     },
   ],
 
-  databases: [
+  services: [
+    {
+      icon: Github,
+      name: "Github"
+    },
     {
       icon: Firebase,
       name: "Firebase",
@@ -84,6 +85,10 @@ const RESUME_DATA = {
       icon: Mongodb,
       name: "Mongodb",
     },
+    {
+      icon: Vercel,
+      name: "Vercel"
+    }
   ],
 };
 
