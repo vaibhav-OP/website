@@ -33,3 +33,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.frameworks_links {
+  border-bottom: solid rgba(115, 115, 115, 1) 2px;
+}
+
+.frameworks_links:hover {
+  border-bottom: solid rgba(115, 115, 115, 0.75) 2px;
+}
