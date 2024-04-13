@@ -1,8 +1,32 @@
 .projects_wrapper {
   gap: 2rem;
   display: flex;
+  position: relative;
+  align-items: center;
   flex-direction: column;
   color: rgba(156, 163, 175, 1);
+}
+
+.view_more_container {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  transform: translateY(50%);
+}
+
+.view_more_container button {
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 14px 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.projects_wrapper h3 {
+  align-self: start;
 }
 
 .projects_wrapper h5 {
@@ -14,12 +38,19 @@
   color: black;
   display: grid;
   gap: 24px;
+  overflow: hidden;
+  transition: all 0.25s;
 }
 
 .projects_list > li {
   gap: 32px;
   display: grid;
   align-items: center;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-top: 0.75rem;
 }
 
 .projects_list > li > figure {
@@ -40,8 +71,8 @@
 }
 
 .detail > h2 {
-  text-transform: capitalize;
   font-size: xx-large;
+  text-transform: capitalize;
 }
 
 .detail > blockquote {
@@ -58,7 +89,7 @@
   transition: all 0.25s;
 }
 
-.detail > a:hover {
+.detail > div > a:hover {
   background-color: #0000000a;
 }
 
