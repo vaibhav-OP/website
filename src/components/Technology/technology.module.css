@@ -2,14 +2,10 @@
   gap: 2rem;
   display: flex;
   flex-direction: column;
-}
-
-.tech_wrapper h3 {
   color: rgba(156, 163, 175, 1);
 }
 
 .tech_wrapper h5 {
-  color: rgba(156, 163, 175, 1);
   font-size: 1em;
   border-bottom: #e5e7eb 1px solid;
 }

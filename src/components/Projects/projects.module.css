@@ -1,0 +1,78 @@
+.projects_wrapper {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: rgba(156, 163, 175, 1);
+}
+
+.projects_wrapper h5 {
+  font-size: 1em;
+  border-bottom: #e5e7eb 1px solid;
+}
+
+.projects_list {
+  color: black;
+  display: grid;
+  gap: 24px;
+}
+
+.projects_list > li {
+  gap: 32px;
+  display: grid;
+  align-items: center;
+}
+
+.projects_list > li > figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.projects_list > li > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail {
+  display: grid;
+  gap: 20px;
+}
+
+.detail > h2 {
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+.detail > blockquote {
+  color: rgba(156, 163, 175, 1);
+}
+
+.detail > div > a {
+  text-align: center;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: rgba(156, 163, 175, 1);
+  border: rgba(156, 163, 175, 1) solid 1px;
+  transition: all 0.25s;
+}
+
+.detail > a:hover {
+  background-color: #0000000a;
+}
+
+@media (min-width: 1023px) {
+  .projects_list > li {
+    height: 274px;
+  }
+
+  .projects_list > li {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px;
+  }
+
+  .rev {
+    direction: rtl;
+  }
+}
